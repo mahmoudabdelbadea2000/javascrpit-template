@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamplate js</title>
+    <!-- css normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome lib -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Nunito:wght@200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <!-- start landing page -->
+    <section class="landing">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <p>mokamal</p>
+                </div>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active" data-section=".about">about</a></li>
+                        <li><a href="#" data-section=".progress">skills</a></li>
+                        <li><a href="#" data-section=".gallery">gallery</a></li>
+                        <li><a href="#" data-section=".timeline">timeline</a></li>
+                        <li><a href="#" data-section=".features">features</a></li>
+                        <li><a href="#" data-section=".testimonials">testimonials</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-content">
+            <h1>i am <span>front end</span> developer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ad voluptatem non dicta hic
+                molestias</p>
+        </div>
+    </section>
+    <i class="fa-solid fa-angle-up scroll-up"></i>
+    <!-- end landing page -->
+    <!-- start side Bar -->
+    <aside>
+        <div>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="settings-options">
+            <h5>colors</h5>
+            <ul>
+                <li class="active" data-color="#fa9923"></li>
+                <li data-color="#00bcd4"></li>
+                <li data-color="#e91e63"></li>
+                <li data-color="#673ab7"></li>
+                <li data-color="#4caf50"></li>
+            </ul>
+        </div>
+        <div class="settings-options">
+            <h5>background</h5>
+            <div class="random-background">
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+            </div>
+        </div>
+        <div class="settings-options">
+            <h5>nav bar option</h5>
+            <div class="nav-bar-options">
+                <span class="yes active" data-nav="yes">Yes</span>
+                <span class="no" data-nav="no">No</span>
+            </div>
+        </div>
+        <button class="reset-options">reset options</button>
+    </aside>
+    <!-- end side bar -->
+    <!-- start nav bar -->
+    <nav class="nav-bar">
+        <div class="bullet" data-section=".about">
+            <div class="tooltip">about</div>
+        </div>
+        <div class="bullet" data-section=".progress">
+            <div class="tooltip">progress</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">testimonials</div>
+        </div>
+    </nav>
+    <!-- end nav bar -->
+    <!-- start about Us -->
+    <section class="about">
+        <div class="container">
+            <div class="content">
+                <h2>about us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore doloribus quibusdam totam illo,
+                    reprehenderit veniam ratione quasi voluptate rem fuga vero quia molestiae asperiores id blanditiis
+                    laudantium nam quos voluptas.</p>
+            </div>
+            <div class="img">
+                <img src="images/about.jpg" alt="about Us">
+            </div>
+        </div>
+    </section>
+    <!-- end about Us -->
+    <!-- start progress -->
+    <section class="progress">
+        <div class="container">
+            <h2>our progress</h2>
+            <div class="main-content">
+                <div class="progs">
+                    <div class="prog-name">css</div>
+                    <div class="prog-skills"><span data-progress="80%"></span></div>
+                </div>
+                <div class="progs">
+                    <div class="prog-name">javascript</div>
+                    <div class="prog-skills"><span data-progress="65%"></span></div>
+                </div>
+                <div class="progs">
+                    <div class="prog-name">html</div>
+                    <div class="prog-skills"><span data-progress="90%"></span></div>
+                </div>
+                <div class="progs">
+                    <div class="prog-name">responsive web</div>
+                    <div class="prog-skills"><span data-progress="65%"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end progress -->
+    <!-- start gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h2>our gallery</h2>
+            <div class="images">
+                <img src="images/gallery-1.jpg">
+                <img src="images/gallery-2.jpg">
+                <img src="images/gallery-3.jpg">
+                <img src="images/gallery-4.jpg">
+                <img src="images/gallery-5.jpg">
+                <img src="images/gallery-6.jpg">
+                <img src="images/gallery-7.jpg">
+                <img src="images/gallery-8.jpg">
+                <img src="images/gallery-9.jpg">
+                <img src="images/gallery-10.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <section class="timeline">
+        <div class="container">
+            <div class="content">
+                <div class="year">2018</div>
+                <div class="text">
+                    <div class="left">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                    <div class="right">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="year">2019</div>
+                <div class="text">
+                    <div class="left">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                    <div class="right">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="year">2020</div>
+                <div class="text">
+                    <div class="left">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                    <div class="right">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="year">2021</div>
+                <div class="text">
+                    <div class="left">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                    <div class="right">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="year">2022</div>
+                <div class="text">
+                    <div class="left">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                    <div class="right">
+                        <h4>testing methad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est dignissimos itaque,
+                            fuga saepe aperiam! Natus corrupti amet hic nam iusto placeat, illo quisquam minima unde
+                            dicta debitis exercitationem iste?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end timeline -->
+    <!-- start features -->
+    <section class="features">
+        <div class="container">
+            <h2>our gallery</h2>
+            <div class="main-content">
+                <div class="feat-box">
+                    <img src="images/Icon_01.png">
+                    <h4>big data</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_02.png">
+                    <h4>development</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_03.png">
+                    <h4>color grading</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_04.png">
+                    <h4>markting</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_05.png">
+                    <h4>shoping</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_06.png">
+                    <h4>photography</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end features -->
+    <!-- start testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="main-content">
+                <div class="tes-box">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dolore</p>
+                    <div class="about-info">
+                        <img src="images/testimonials-1.jpg">
+                        <div class="text">
+                            <h4>tim cook</h4>
+                            <p>ceo apple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tes-box">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dolore</p>
+                    <div class="about-info">
+                        <img src="images/testimonials-2.jpg">
+                        <div class="text">
+                            <h4>ilon mask</h4>
+                            <p>ceo tessla</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tes-box">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dolore</p>
+                    <div class="about-info">
+                        <img src="images/testimonials-3.jpg">
+                        <div class="text">
+                            <h4>jef besos</h4>
+                            <p>ceo amazon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end testimonials -->
+    <!-- start contact us -->
+    <section class="contact-us">
+        <div class="container">
+            <h2>contact us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                    <input type="email" name="email" placeholder="email">
+                    <input type="password" name="password" placeholder="password">
+                </div>
+                <div class="right">
+                    <textarea placeholder="your message"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <p>created by Mo Kamal</p>
+            <div class="social-media">
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-linkedin"></i></a>
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-twitter"></i></a>
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-facebook"></i></a>
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-instagram"></i></a>
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-whatsapp"></i></a>
+                <a href="http://" target="_blank"><i class="icons fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
